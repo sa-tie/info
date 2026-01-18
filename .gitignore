@@ -19,8 +19,6 @@ dist/
 build/
 *.egg-info/
 
-# dev
-*.swo
-*.swp
+# macOS
 .DS_Store
-set_env_vars.sh
+._*
