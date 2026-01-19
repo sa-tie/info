@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ3DYVQ8Q4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VZ3DYVQ8Q4');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>satie-info | Home</title>
@@ -65,14 +74,20 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>
-                ご依頼やご相談があれば、
-                <a href="https://x.com/barbecued_head" target="_blank" rel="noopener noreferrer">
+                ご依頼やご相談がありましたら、
+                <a href="https://x.com/barbecued_head"
+                target="_blank"
+                rel="noopener noreferrer"
+                onclick="gtag('event', 'click', {
+                    event_category: 'outbound',
+                    event_label: 'x_text'
+                });">
                     X(Twitter)
                 </a>
                 のDMまでお願いします。
             </p>
             <p>
-                プライベートの都合により、個人様のご依頼をお受けできない場合や、返信が遅くなる場合があります。<br>
+                プライベートの都合により、個人様のご依頼をお受けできない場合や、返信が遅い場合があります。<br>
                 ご了承いただけますと幸いです。
             </p>
         </section>
